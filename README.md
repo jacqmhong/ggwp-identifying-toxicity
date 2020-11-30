@@ -2,6 +2,8 @@
 Much like the general internet, racism and sexism thrive in the gaming world. Despite this area of the internet being established for years, people still experience unwarranted aggression from other players. With the intention of cleansing the gaming community of harassment as much as possible, the goal of this project is to 1) create a detection method for tagging toxic behavior/players and 2) provide insights on toxic behavior/players.
 
 # Contents
+The jupyter notebooks map the thought process and learning path of creating this identifier and insights. 
+
 ### Model Formation
 1) **ggwp1_eda_and_kmeans.ipynb**
     - Data cleaning
