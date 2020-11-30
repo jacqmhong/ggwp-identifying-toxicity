@@ -3,8 +3,6 @@ Much like the general internet, racism and sexism thrive in the gaming world. De
 
 # Contents
 ### Model Formation
-0) **ggwp0_languages.ipynb**
-    - Labeling languages of in-game chat messages across 21 million rows
 1) **ggwp1_eda_and_kmeans.ipynb**
     - Data cleaning
     - Exploratory data analysis
@@ -23,7 +21,6 @@ Much like the general internet, racism and sexism thrive in the gaming world. De
       - Applying word embeddings to the model, first with a normal average
       - Applying word embeddings to the model with a weighted average, the weights being from Tfidf
 6) **ggwp8_final_model.ipynb**
-    - The exact model applied to our UI.
 
 ### Insights on Toxic Behavior/Players
 7) **ggwp6_thresholds_cleaning**
@@ -33,6 +30,3 @@ Much like the general internet, racism and sexism thrive in the gaming world. De
     - Segmenting time, finding trends across labels
         - Every 5 minutes
         - Pre-, early, mid, late game
-
-### User Interfact
-9) ...
