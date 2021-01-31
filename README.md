@@ -1,5 +1,5 @@
-# Identifying Toxic Behavior in Gaming
-All types of harassment thrive in the gaming world. To this day, people still experience unwarranted aggression from other players. With the intention of cleansing the gaming community, the goal of this project is to 1) create a detection method for tagging toxic behavior/players and 2) provide insights on toxic behavior/players.
+# Identifying Toxicity in Gaming
+Harassment thrives in the gaming world. To this day, people still experience unwarranted aggression from other players. With the intention of cleansing the gaming community, the goal of this project is to 1) create a detection method for tagging toxic behavior/players and 2) provide insights on toxic behavior/players.
 
 **Summary**: The series of notebooks cover data cleaning/preprocessing, exploratory data analysis, building a classifier to identify toxicity in the general internet, modifying this classifier to work on in-game chats (large domain discrepancy due to words like "kill" and more), and another analysis after labeling chats. 
 
