@@ -1,7 +1,9 @@
 # Identifying Toxic Behavior in Gaming
-Much like the general internet, racism, sexism, and other types of harassment thrive in the gaming world. Despite this area of the internet being established for years, people still experience unwarranted aggression from other players. With the intention of cleansing the gaming community of harassment as much as possible, the goal of this project is to 1) create a detection method for tagging toxic behavior/players and 2) provide insights on toxic behavior/players.
+All types of harassment thrive in the gaming world. To this day, people still experience unwarranted aggression from other players. With the intention of cleansing the gaming community, the goal of this project is to 1) create a detection method for tagging toxic behavior/players and 2) provide insights on toxic behavior/players.
 
-**Summary**: The series of notebooks cover data cleaning/preprocessing, exploratory data analysis, building a classifier to identify toxicity in the general internet, modifying this classifier to work on in-game chats (large domain discrepancy due to words like "kill" and more), and another analysis after labeling chats. The final model is found in `ggwp8_final_model.ipynb` and identifies whether a message is toxic, obscene, a threat, an insult, and/or identity hate through natural language processing.
+**Summary**: The series of notebooks cover data cleaning/preprocessing, exploratory data analysis, building a classifier to identify toxicity in the general internet, modifying this classifier to work on in-game chats (large domain discrepancy due to words like "kill" and more), and another analysis after labeling chats. 
+
+The final model is found in `ggwp8_final_model.ipynb` and identifies whether a message is toxic, obscene, a threat, an insult, and/or identity hate through natural language processing.
 * **The final model:** Used Stanford's Common Crawl word vector corpus to convert the chat's words into vectors, used tf-idf to get the importance weights of each word to compute a weighted mean to resemble the sentence, formed additional features, entered it all into a logistic regression model, and assessed the model's capabilities with F1-scores.
 
 
